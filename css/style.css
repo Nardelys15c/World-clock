@@ -3,3 +3,7 @@ a {
   background-color: rgb(136, 85, 94);
   color: aliceblue;
 }
+h1,
+footer {
+  text-align: center;
+}
