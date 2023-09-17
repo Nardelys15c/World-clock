@@ -22,6 +22,17 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+  let denverElement = document.querySelector("#denver");
+  if (denverElement) {
+    let denverDateElement = denverElement.querySelector(".date");
+    let denverTimeElement = denverElement.querySelector(".time");
+    let denverTime = moment().tz("America/Denver");
+
+    denverDateElement.innerHTML = denverTime.format("MMMM Do, YYYY");
+    denverTimeElement.innerHTML = denverTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
