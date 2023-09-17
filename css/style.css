@@ -1,7 +1,10 @@
-body,
-a {
+body {
   background-color: rgb(136, 85, 94);
   color: aliceblue;
+}
+a {
+  color: rgb(207, 94, 115);
+  font-size: 18px;
 }
 h1 {
   text-align: center;
@@ -57,4 +60,5 @@ footer {
   text-align: center;
   font-size: 18px;
   color: aliceblue;
+  background-color: rgb(136, 85, 94);
 }
